@@ -1,0 +1,28 @@
+{
+  "name": {
+    "en": "Wired Input"
+  },
+  "class": "button",
+  "capabilities": [],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "matter"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "matter": {
+    "deviceVendorId": 4932,
+    "deviceProductName": "ELTAKO-Wired input",
+    "vendorId": 4932,
+    "productId": [
+      1009,
+      1054,
+      1104
+    ]
+  }
+}

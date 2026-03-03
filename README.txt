@@ -1,0 +1,3 @@
+Eltako has stood for switching and building automation since 1949, delivering German-engineered, installer-grade devices known for their durability and long service life. From relays and dimmers to sensors and actuators, Eltako products are trusted across Europe for reliable, no-nonsense performance.
+
+This app brings that proven technology into Homey, seamlessly connecting your Eltako devices with the rest of your smart home. The same quality you expect from Eltako, now integrated with Homey.

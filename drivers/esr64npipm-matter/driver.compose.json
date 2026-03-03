@@ -1,0 +1,27 @@
+{
+  "name": {
+    "en": "ESR64NP-IPM Impulse Switch"
+  },
+  "class": "socket",
+  "capabilities": [
+    "dim",
+    "onoff"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "matter"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "matter": {
+    "deviceVendorId": 4932,
+    "deviceProductName": "ELTAKO-ESR64NP-IPM",
+    "vendorId": 4932,
+    "productId": 1009
+  }
+}

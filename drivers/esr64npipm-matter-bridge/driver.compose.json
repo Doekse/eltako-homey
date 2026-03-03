@@ -1,0 +1,38 @@
+{
+  "name": {
+    "en": "ESR64NP-IPM Matter Bridge"
+  },
+  "class": "bridge",
+  "capabilities": [],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "matter"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "matter": {
+    "vendorId": 4932,
+    "productId": 1009,
+    "learnmode": {
+      "instruction": {
+        "en": "The device will automatically start Matter pairing mode when first powered on, indicated by a beep by the device.\n\nAfter the device has been added to Homey you can also add it to the mobile Eltako-app to configure connected EnOcean devices.",
+        "nl": "Het apparaat start automatisch de Matter-koppelingsmodus wanneer het voor het eerst wordt ingeschakeld, aangegeven door een piep van het apparaat.\n\nNadat het apparaat aan Homey is toegevoegd, kunt u het ook toevoegen aan de mobiele Eltako-app om aangesloten EnOcean-apparaten te configureren.",
+        "de": "Das Gerät startet automatisch den Matter-Pairing-Modus beim ersten Einschalten, angezeigt durch einen Piepton des Geräts.\n\nNachdem das Gerät zu Homey hinzugefügt wurde, können Sie es auch in der mobilen Eltako-App hinzufügen, um verbundene EnOcean-Geräte zu konfigurieren.",
+        "it": "Il dispositivo avvierà automaticamente la modalità di abbinamento Matter quando viene acceso per la prima volta, indicato da un segnale acustico del dispositivo.\n\nDopo aver aggiunto il dispositivo a Homey, puoi anche aggiungerlo all'app mobile Eltako per configurare i dispositivi EnOcean collegati.",
+        "no": "Enheten starter automatisk Matter-parringsmodus når den slås på for første gang, indikert av en pipelyd fra enheten.\n\nEtter at enheten er lagt til i Homey kan du også legge den til i den mobile Eltako-appen for å konfigurere tilkoblede EnOcean-enheter.",
+        "es": "El dispositivo iniciará automáticamente el modo de emparejamiento Matter cuando se encienda por primera vez, indicado por un pitido del dispositivo.\n\nDespués de añadir el dispositivo a Homey, también puede añadirlo a la aplicación móvil Eltako para configurar los dispositivos EnOcean conectados.",
+        "da": "Enheden starter automatisk Matter-parringstilstand når den tændes for første gang, indikeret af en bip fra enheden.\n\nEfter at enheden er tilføjet til Homey kan du også tilføje den til den mobile Eltako-app for at konfigurere tilsluttede EnOcean-enheder.",
+        "ru": "Устройство автоматически запустит режим сопряжения Matter при первом включении, о чём сигнализирует звуковой сигнал устройства.\n\nПосле добавления устройства в Homey вы также можете добавить его в мобильное приложение Eltako для настройки подключённых устройств EnOcean.",
+        "pl": "Urządzenie automatycznie uruchomi tryb parowania Matter przy pierwszym włączeniu, sygnalizowany sygnałem dźwiękowym urządzenia.\n\nPo dodaniu urządzenia do Homey możesz je również dodać do mobilnej aplikacji Eltako, aby skonfigurować podłączone urządzenia EnOcean.",
+        "ko": "장치가 처음 전원을 켤 때 장치의 비프음으로 표시되는 Matter 페어링 모드를 자동으로 시작합니다.\n\n장치가 Homey에 추가된 후 모바일 Eltako 앱에 추가하여 연결된 EnOcean 장치를 구성할 수도 있습니다.",
+        "ar": "سيبدأ الجهاز تلقائيًا وضع الاقتران Matter عند تشغيله لأول مرة، ويُشار إليه بصفارة من الجهاز.\n\nبعد إضافة الجهاز إلى Homey يمكنك أيضًا إضافته إلى تطبيق Eltako للجوال لتكوين أجهزة EnOcean المتصلة."
+      },
+      "image": "{{driverAssetsPath}}/pair.png"
+    }
+  }
+}

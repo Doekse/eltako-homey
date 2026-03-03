@@ -1,0 +1,479 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.eltako",
+  "version": "0.1.3",
+  "compatibility": ">=12.5.0",
+  "sdk": 3,
+  "brandColor": "#0065B0",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "platformLocalRequiredFeatures": [
+    "matter"
+  ],
+  "name": {
+    "en": "Eltako"
+  },
+  "description": {
+    "en": "Switching on the future"
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "ELTAKO GmbH",
+    "email": "abe.haverkamp+eltako@homey.app"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Abe Haverkamp (developer)"
+      },
+      {
+        "name": "Bas van der Ploeg (icons)"
+      }
+    ]
+  },
+  "source": "https://github.com/Doekse/eltako-homey",
+  "support": "mailto:abe.haverkamp+eltako@homey.app",
+  "homeyCommunityTopicId": 151999,
+  "drivers": [
+    {
+      "name": {
+        "en": "ESB64NP-IPM Shading actuator"
+      },
+      "class": "windowcoverings",
+      "capabilities": [
+        "windowcoverings_closed",
+        "windowcoverings_set",
+        "windowcoverings_state"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/esb64npipm-matter/assets/images/small.png",
+        "large": "/drivers/esb64npipm-matter/assets/images/large.png",
+        "xlarge": "/drivers/esb64npipm-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-ESB64NP-IPM",
+        "vendorId": 4932,
+        "productId": 1104
+      },
+      "id": "esb64npipm-matter"
+    },
+    {
+      "name": {
+        "en": "ESB64NP-IPM Matter Bridge"
+      },
+      "class": "bridge",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/esb64npipm-matter-bridge/assets/images/small.png",
+        "large": "/drivers/esb64npipm-matter-bridge/assets/images/large.png",
+        "xlarge": "/drivers/esb64npipm-matter-bridge/assets/images/xlarge.png"
+      },
+      "matter": {
+        "vendorId": 4932,
+        "productId": 1104,
+        "learnmode": {
+          "instruction": {
+            "en": "The device will automatically start Matter pairing mode when first powered on, indicated by a beep by the device.\n\nAfter the device has been added to Homey you can also add it to the mobile Eltako-app to configure connected EnOcean devices.",
+            "nl": "Het apparaat start automatisch de Matter-koppelingsmodus wanneer het voor het eerst wordt ingeschakeld, aangegeven door een piep van het apparaat.\n\nNadat het apparaat aan Homey is toegevoegd, kunt u het ook toevoegen aan de mobiele Eltako-app om aangesloten EnOcean-apparaten te configureren.",
+            "de": "Das Gerät startet automatisch den Matter-Pairing-Modus beim ersten Einschalten, angezeigt durch einen Piepton des Geräts.\n\nNachdem das Gerät zu Homey hinzugefügt wurde, können Sie es auch in der mobilen Eltako-App hinzufügen, um verbundene EnOcean-Geräte zu konfigurieren.",
+            "it": "Il dispositivo avvierà automaticamente la modalità di abbinamento Matter quando viene acceso per la prima volta, indicato da un segnale acustico del dispositivo.\n\nDopo aver aggiunto il dispositivo a Homey, puoi anche aggiungerlo all'app mobile Eltako per configurare i dispositivi EnOcean collegati.",
+            "no": "Enheten starter automatisk Matter-parringsmodus når den slås på for første gang, indikert av en pipelyd fra enheten.\n\nEtter at enheten er lagt til i Homey kan du også legge den til i den mobile Eltako-appen for å konfigurere tilkoblede EnOcean-enheter.",
+            "es": "El dispositivo iniciará automáticamente el modo de emparejamiento Matter cuando se encienda por primera vez, indicado por un pitido del dispositivo.\n\nDespués de añadir el dispositivo a Homey, también puede añadirlo a la aplicación móvil Eltako para configurar los dispositivos EnOcean conectados.",
+            "da": "Enheden starter automatisk Matter-parringstilstand når den tændes for første gang, indikeret af en bip fra enheden.\n\nEfter at enheden er tilføjet til Homey kan du også tilføje den til den mobile Eltako-app for at konfigurere tilsluttede EnOcean-enheder.",
+            "ru": "Устройство автоматически запустит режим сопряжения Matter при первом включении, о чём сигнализирует звуковой сигнал устройства.\n\nПосле добавления устройства в Homey вы также можете добавить его в мобильное приложение Eltako для настройки подключённых устройств EnOcean.",
+            "pl": "Urządzenie automatycznie uruchomi tryb parowania Matter przy pierwszym włączeniu, sygnalizowany sygnałem dźwiękowym urządzenia.\n\nPo dodaniu urządzenia do Homey możesz je również dodać do mobilnej aplikacji Eltako, aby skonfigurować podłączone urządzenia EnOcean.",
+            "ko": "장치가 처음 전원을 켤 때 장치의 비프음으로 표시되는 Matter 페어링 모드를 자동으로 시작합니다.\n\n장치가 Homey에 추가된 후 모바일 Eltako 앱에 추가하여 연결된 EnOcean 장치를 구성할 수도 있습니다.",
+            "ar": "سيبدأ الجهاز تلقائيًا وضع الاقتران Matter عند تشغيله لأول مرة، ويُشار إليه بصفارة من الجهاز.\n\nبعد إضافة الجهاز إلى Homey يمكنك أيضًا إضافته إلى تطبيق Eltako للجوال لتكوين أجهزة EnOcean المتصلة."
+          },
+          "image": "/drivers/esb64npipm-matter-bridge/assets/pair.png"
+        }
+      },
+      "id": "esb64npipm-matter-bridge"
+    },
+    {
+      "name": {
+        "en": "ESR64NP-IPM Impulse Switch"
+      },
+      "class": "socket",
+      "capabilities": [
+        "dim",
+        "onoff"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/esr64npipm-matter/assets/images/small.png",
+        "large": "/drivers/esr64npipm-matter/assets/images/large.png",
+        "xlarge": "/drivers/esr64npipm-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-ESR64NP-IPM",
+        "vendorId": 4932,
+        "productId": 1009
+      },
+      "id": "esr64npipm-matter"
+    },
+    {
+      "name": {
+        "en": "ESR64NP-IPM Matter Bridge"
+      },
+      "class": "bridge",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/esr64npipm-matter-bridge/assets/images/small.png",
+        "large": "/drivers/esr64npipm-matter-bridge/assets/images/large.png",
+        "xlarge": "/drivers/esr64npipm-matter-bridge/assets/images/xlarge.png"
+      },
+      "matter": {
+        "vendorId": 4932,
+        "productId": 1009,
+        "learnmode": {
+          "instruction": {
+            "en": "The device will automatically start Matter pairing mode when first powered on, indicated by a beep by the device.\n\nAfter the device has been added to Homey you can also add it to the mobile Eltako-app to configure connected EnOcean devices.",
+            "nl": "Het apparaat start automatisch de Matter-koppelingsmodus wanneer het voor het eerst wordt ingeschakeld, aangegeven door een piep van het apparaat.\n\nNadat het apparaat aan Homey is toegevoegd, kunt u het ook toevoegen aan de mobiele Eltako-app om aangesloten EnOcean-apparaten te configureren.",
+            "de": "Das Gerät startet automatisch den Matter-Pairing-Modus beim ersten Einschalten, angezeigt durch einen Piepton des Geräts.\n\nNachdem das Gerät zu Homey hinzugefügt wurde, können Sie es auch in der mobilen Eltako-App hinzufügen, um verbundene EnOcean-Geräte zu konfigurieren.",
+            "it": "Il dispositivo avvierà automaticamente la modalità di abbinamento Matter quando viene acceso per la prima volta, indicato da un segnale acustico del dispositivo.\n\nDopo aver aggiunto il dispositivo a Homey, puoi anche aggiungerlo all'app mobile Eltako per configurare i dispositivi EnOcean collegati.",
+            "no": "Enheten starter automatisk Matter-parringsmodus når den slås på for første gang, indikert av en pipelyd fra enheten.\n\nEtter at enheten er lagt til i Homey kan du også legge den til i den mobile Eltako-appen for å konfigurere tilkoblede EnOcean-enheter.",
+            "es": "El dispositivo iniciará automáticamente el modo de emparejamiento Matter cuando se encienda por primera vez, indicado por un pitido del dispositivo.\n\nDespués de añadir el dispositivo a Homey, también puede añadirlo a la aplicación móvil Eltako para configurar los dispositivos EnOcean conectados.",
+            "da": "Enheden starter automatisk Matter-parringstilstand når den tændes for første gang, indikeret af en bip fra enheden.\n\nEfter at enheden er tilføjet til Homey kan du også tilføje den til den mobile Eltako-app for at konfigurere tilsluttede EnOcean-enheder.",
+            "ru": "Устройство автоматически запустит режим сопряжения Matter при первом включении, о чём сигнализирует звуковой сигнал устройства.\n\nПосле добавления устройства в Homey вы также можете добавить его в мобильное приложение Eltako для настройки подключённых устройств EnOcean.",
+            "pl": "Urządzenie automatycznie uruchomi tryb parowania Matter przy pierwszym włączeniu, sygnalizowany sygnałem dźwiękowym urządzenia.\n\nPo dodaniu urządzenia do Homey możesz je również dodać do mobilnej aplikacji Eltako, aby skonfigurować podłączone urządzenia EnOcean.",
+            "ko": "장치가 처음 전원을 켤 때 장치의 비프음으로 표시되는 Matter 페어링 모드를 자동으로 시작합니다.\n\n장치가 Homey에 추가된 후 모바일 Eltako 앱에 추가하여 연결된 EnOcean 장치를 구성할 수도 있습니다.",
+            "ar": "سيبدأ الجهاز تلقائيًا وضع الاقتران Matter عند تشغيله لأول مرة، ويُشار إليه بصفارة من الجهاز.\n\nبعد إضافة الجهاز إلى Homey يمكنك أيضًا إضافته إلى تطبيق Eltako للجوال لتكوين أجهزة EnOcean المتصلة."
+          },
+          "image": "/drivers/esr64npipm-matter-bridge/assets/pair.png"
+        }
+      },
+      "id": "esr64npipm-matter-bridge"
+    },
+    {
+      "name": {
+        "en": "EUD64NPN-IPM Universal Dimmer"
+      },
+      "class": "light",
+      "capabilities": [
+        "dim",
+        "onoff"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/eud64npnipm-matter/assets/images/small.png",
+        "large": "/drivers/eud64npnipm-matter/assets/images/large.png",
+        "xlarge": "/drivers/eud64npnipm-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-EUD64NPN-IPM",
+        "vendorId": 4932,
+        "productId": 1054
+      },
+      "id": "eud64npnipm-matter"
+    },
+    {
+      "name": {
+        "en": "EUD64NPN-IPM Matter Bridge"
+      },
+      "class": "bridge",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/eud64npnipm-matter-bridge/assets/images/small.png",
+        "large": "/drivers/eud64npnipm-matter-bridge/assets/images/large.png",
+        "xlarge": "/drivers/eud64npnipm-matter-bridge/assets/images/xlarge.png"
+      },
+      "matter": {
+        "vendorId": 4932,
+        "productId": 1054,
+        "learnmode": {
+          "instruction": {
+            "en": "The device will automatically start Matter pairing mode when first powered on, indicated by a beep by the device.\n\nAfter the device has been added to Homey you can also add it to the mobile Eltako-app to configure connected EnOcean devices.",
+            "nl": "Het apparaat start automatisch de Matter-koppelingsmodus wanneer het voor het eerst wordt ingeschakeld, aangegeven door een piep van het apparaat.\n\nNadat het apparaat aan Homey is toegevoegd, kunt u het ook toevoegen aan de mobiele Eltako-app om aangesloten EnOcean-apparaten te configureren.",
+            "de": "Das Gerät startet automatisch den Matter-Pairing-Modus beim ersten Einschalten, angezeigt durch einen Piepton des Geräts.\n\nNachdem das Gerät zu Homey hinzugefügt wurde, können Sie es auch in der mobilen Eltako-App hinzufügen, um verbundene EnOcean-Geräte zu konfigurieren.",
+            "it": "Il dispositivo avvierà automaticamente la modalità di abbinamento Matter quando viene acceso per la prima volta, indicato da un segnale acustico del dispositivo.\n\nDopo aver aggiunto il dispositivo a Homey, puoi anche aggiungerlo all'app mobile Eltako per configurare i dispositivi EnOcean collegati.",
+            "no": "Enheten starter automatisk Matter-parringsmodus når den slås på for første gang, indikert av en pipelyd fra enheten.\n\nEtter at enheten er lagt til i Homey kan du også legge den til i den mobile Eltako-appen for å konfigurere tilkoblede EnOcean-enheter.",
+            "es": "El dispositivo iniciará automáticamente el modo de emparejamiento Matter cuando se encienda por primera vez, indicado por un pitido del dispositivo.\n\nDespués de añadir el dispositivo a Homey, también puede añadirlo a la aplicación móvil Eltako para configurar los dispositivos EnOcean conectados.",
+            "da": "Enheden starter automatisk Matter-parringstilstand når den tændes for første gang, indikeret af en bip fra enheden.\n\nEfter at enheden er tilføjet til Homey kan du også tilføje den til den mobile Eltako-app for at konfigurere tilsluttede EnOcean-enheder.",
+            "ru": "Устройство автоматически запустит режим сопряжения Matter при первом включении, о чём сигнализирует звуковой сигнал устройства.\n\nПосле добавления устройства в Homey вы также можете добавить его в мобильное приложение Eltako для настройки подключённых устройств EnOcean.",
+            "pl": "Urządzenie automatycznie uruchomi tryb parowania Matter przy pierwszym włączeniu, sygnalizowany sygnałem dźwiękowym urządzenia.\n\nPo dodaniu urządzenia do Homey możesz je również dodać do mobilnej aplikacji Eltako, aby skonfigurować podłączone urządzenia EnOcean.",
+            "ko": "장치가 처음 전원을 켤 때 장치의 비프음으로 표시되는 Matter 페어링 모드를 자동으로 시작합니다.\n\n장치가 Homey에 추가된 후 모바일 Eltako 앱에 추가하여 연결된 EnOcean 장치를 구성할 수도 있습니다.",
+            "ar": "سيبدأ الجهاز تلقائيًا وضع الاقتران Matter عند تشغيله لأول مرة، ويُشار إليه بصفارة من الجهاز.\n\nبعد إضافة الجهاز إلى Homey يمكنك أيضًا إضافته إلى تطبيق Eltako للجوال لتكوين أجهزة EnOcean المتصلة."
+          },
+          "image": "/drivers/eud64npnipm-matter-bridge/assets/pair.png"
+        }
+      },
+      "id": "eud64npnipm-matter-bridge"
+    },
+    {
+      "name": {
+        "en": "FBHT55ESB-am Wireless motion/brightness/temperature sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_battery",
+        "measure_luminance",
+        "alarm_motion",
+        "measure_temperature"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
+      },
+      "images": {
+        "small": "/drivers/fbht55esbwg-matter/assets/images/small.png",
+        "large": "/drivers/fbht55esbwg-matter/assets/images/large.png",
+        "xlarge": "/drivers/fbht55esbwg-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-FBHT55ESB_FBH",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1054,
+          1104
+        ]
+      },
+      "id": "fbht55esbwg-matter"
+    },
+    {
+      "name": {
+        "en": "FTFSB Wireless temperature+humidity sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "measure_humidity",
+        "measure_temperature"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/ftfsbwg-matter/assets/images/small.png",
+        "large": "/drivers/ftfsbwg-matter/assets/images/large.png",
+        "xlarge": "/drivers/ftfsbwg-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-FTFSB",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1054,
+          1104
+        ]
+      },
+      "id": "ftfsbwg-matter"
+    },
+    {
+      "name": {
+        "en": "FTKB Wireless window/door contact"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_battery",
+        "alarm_contact"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
+      },
+      "images": {
+        "small": "/drivers/ftkbwg-matter/assets/images/small.png",
+        "large": "/drivers/ftkbwg-matter/assets/images/large.png",
+        "xlarge": "/drivers/ftkbwg-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-FTKB",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1054,
+          1104
+        ]
+      },
+      "id": "ftkbwg-matter"
+    },
+    {
+      "name": {
+        "en": "FTKE Wireless window/door contact"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_contact"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/ftkerw-matter/assets/images/small.png",
+        "large": "/drivers/ftkerw-matter/assets/images/large.png",
+        "xlarge": "/drivers/ftkerw-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-FTKE",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1054,
+          1104
+        ]
+      },
+      "id": "ftkerw-matter"
+    },
+    {
+      "name": {
+        "en": "FWS81 Wireless water sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_water"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/fws81-matter/assets/images/small.png",
+        "large": "/drivers/fws81-matter/assets/images/large.png",
+        "xlarge": "/drivers/fws81-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-FWS81",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1054,
+          1104
+        ]
+      },
+      "id": "fws81-matter"
+    },
+    {
+      "name": {
+        "en": "F2T55E Wireless 2-way pushbutton"
+      },
+      "class": "button",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/ptm215db-matter/assets/images/small.png",
+        "large": "/drivers/ptm215db-matter/assets/images/large.png",
+        "xlarge": "/drivers/ptm215db-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "EnOcean-Eltako Wireless 2-way p~",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1054,
+          1104
+        ]
+      },
+      "id": "ptm215db-matter"
+    },
+    {
+      "name": {
+        "en": "Wired Input"
+      },
+      "class": "button",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/wiredinput-matter/assets/images/small.png",
+        "large": "/drivers/wiredinput-matter/assets/images/large.png",
+        "xlarge": "/drivers/wiredinput-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-Wired input",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1054,
+          1104
+        ]
+      },
+      "id": "wiredinput-matter"
+    }
+  ]
+}

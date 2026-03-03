@@ -1,0 +1,27 @@
+{
+  "name": {
+    "en": "EUD64NPN-IPM Universal Dimmer"
+  },
+  "class": "light",
+  "capabilities": [
+    "dim",
+    "onoff"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "matter"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "matter": {
+    "deviceVendorId": 4932,
+    "deviceProductName": "ELTAKO-EUD64NPN-IPM",
+    "vendorId": 4932,
+    "productId": 1054
+  }
+}
