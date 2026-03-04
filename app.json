@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.eltako",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "compatibility": ">=12.5.0",
   "sdk": 3,
   "brandColor": "#0065B0",
@@ -300,6 +300,66 @@
     },
     {
       "name": {
+        "en": "F4T55E Wireless 4-way pushbutton"
+      },
+      "class": "button",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/f2t55e-matter/assets/images/small.png",
+        "large": "/drivers/f2t55e-matter/assets/images/large.png",
+        "xlarge": "/drivers/f2t55e-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "EnOcean-F6-02-01",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1010,
+          1054,
+          1104
+        ]
+      },
+      "id": "f2t55e-matter"
+    },
+    {
+      "name": {
+        "en": "F2T55E Wireless 2-way pushbutton"
+      },
+      "class": "button",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/f4t55e-matter/assets/images/small.png",
+        "large": "/drivers/f4t55e-matter/assets/images/large.png",
+        "xlarge": "/drivers/f4t55e-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "EnOcean-Eltako Wireless 2-way p~",
+        "vendorId": 4932,
+        "productId": [
+          1009,
+          1010,
+          1054,
+          1104
+        ]
+      },
+      "id": "f4t55e-matter"
+    },
+    {
+      "name": {
         "en": "FBHT55ESB-am Wireless motion/brightness/temperature sensor"
       },
       "class": "sensor",
@@ -472,36 +532,6 @@
         ]
       },
       "id": "fws81-matter"
-    },
-    {
-      "name": {
-        "en": "F2T55E Wireless 2-way pushbutton"
-      },
-      "class": "button",
-      "capabilities": [],
-      "platforms": [
-        "local"
-      ],
-      "connectivity": [
-        "matter"
-      ],
-      "images": {
-        "small": "/drivers/ptm215db-matter/assets/images/small.png",
-        "large": "/drivers/ptm215db-matter/assets/images/large.png",
-        "xlarge": "/drivers/ptm215db-matter/assets/images/xlarge.png"
-      },
-      "matter": {
-        "deviceVendorId": 4932,
-        "deviceProductName": "EnOcean-Eltako Wireless 2-way p~",
-        "vendorId": 4932,
-        "productId": [
-          1009,
-          1010,
-          1054,
-          1104
-        ]
-      },
-      "id": "ptm215db-matter"
     },
     {
       "name": {

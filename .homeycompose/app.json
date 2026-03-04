@@ -1,6 +1,6 @@
 {
   "id": "com.eltako",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "compatibility": ">=12.5.0",
   "sdk": 3,
   "brandColor": "#0065B0",

@@ -1,0 +1,29 @@
+{
+  "name": {
+    "en": "F4T55E Wireless 4-way pushbutton"
+  },
+  "class": "button",
+  "capabilities": [],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "matter"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "matter": {
+    "deviceVendorId": 4932,
+    "deviceProductName": "EnOcean-F6-02-01",
+    "vendorId": 4932,
+    "productId": [
+      1009,
+      1010,
+      1054,
+      1104
+    ]
+  }
+}
