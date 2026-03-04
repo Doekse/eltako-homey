@@ -4,8 +4,8 @@ Diese App bringt diese bewährte Technik zu Homey und verbindet deine Eltako-Ger
 
 Unterstützte EnOcean-Geräte (EOA64-Modul erforderlich)
 ------------------------------------------------------
-- F2T55E Funk-2-Tasten-Taster
-- F4T55E Funk-4-Tasten-Taster
+- F2T55E Funk-2-Kanal-Taster
+- F4T55E Funk-4-Kanal-Taster
 - FBHT55ESB-am Funk-Bewegungs-/Helligkeits-/Temperatursensor (Firmware v2.4.0 erforderlich)
 - FTFSB Funk-Temperatur- und Luftfeuchtesensor (Firmware v2.4.0 erforderlich)
 - FTKB Funk-Fenster-/Türkontakt (Firmware v2.4.0 erforderlich)

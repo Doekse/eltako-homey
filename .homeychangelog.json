@@ -25,5 +25,8 @@
   },
   "0.3.2": {
     "en": "Updated app description with supported EnOcean devices"
+  },
+  "1.0.0": {
+    "en": "First stable release"
   }
 }
