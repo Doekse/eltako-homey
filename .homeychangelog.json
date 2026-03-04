@@ -22,5 +22,8 @@
   },
   "0.3.1": {
     "en": "Fixed wrong driver images"
+  },
+  "0.3.2": {
+    "en": "Updated app description with supported EnOcean devices"
   }
 }
