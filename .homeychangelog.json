@@ -19,5 +19,8 @@
   },
   "0.3.0": {
     "en": "Added support for Eltako F4T55E Wireless 4-way pushbutton"
+  },
+  "0.3.1": {
+    "en": "Fixed wrong driver images"
   }
 }
