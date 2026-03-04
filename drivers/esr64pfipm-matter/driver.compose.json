@@ -1,9 +1,12 @@
 {
   "name": {
-    "en": "Wired Input"
+    "en": "ESR64PF-IPM Impulse Switch"
   },
-  "class": "button",
-  "capabilities": [],
+  "class": "socket",
+  "capabilities": [
+    "dim",
+    "onoff"
+  ],
   "platforms": [
     "local"
   ],
@@ -17,13 +20,8 @@
   },
   "matter": {
     "deviceVendorId": 4932,
-    "deviceProductName": "ELTAKO-Wired input",
+    "deviceProductName": "ELTAKO-ESR64PF-IPM",
     "vendorId": 4932,
-    "productId": [
-      1009,
-      1010,
-      1054,
-      1104
-    ]
+    "productId": 1010
   }
 }

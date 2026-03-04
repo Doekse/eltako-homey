@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.eltako",
-  "version": "0.1.3",
+  "version": "0.2.1",
   "compatibility": ">=12.5.0",
   "sdk": 3,
   "brandColor": "#0065B0",
@@ -182,6 +182,57 @@
     },
     {
       "name": {
+        "en": "ESR64PF-IPM Impulse Switch"
+      },
+      "class": "socket",
+      "capabilities": [
+        "dim",
+        "onoff"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/esr64pfipm-matter/assets/images/small.png",
+        "large": "/drivers/esr64pfipm-matter/assets/images/large.png",
+        "xlarge": "/drivers/esr64pfipm-matter/assets/images/xlarge.png"
+      },
+      "matter": {
+        "deviceVendorId": 4932,
+        "deviceProductName": "ELTAKO-ESR64PF-IPM",
+        "vendorId": 4932,
+        "productId": 1010
+      },
+      "id": "esr64pfipm-matter"
+    },
+    {
+      "name": {
+        "en": "ESR64PF-IPM Matter Bridge"
+      },
+      "class": "bridge",
+      "capabilities": [],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/esr64pfipm-matter-bridge/assets/images/small.png",
+        "large": "/drivers/esr64pfipm-matter-bridge/assets/images/large.png",
+        "xlarge": "/drivers/esr64pfipm-matter-bridge/assets/images/xlarge.png"
+      },
+      "matter": {
+        "vendorId": 4932,
+        "productId": 1010
+      },
+      "id": "esr64pfipm-matter-bridge"
+    },
+    {
+      "name": {
         "en": "EUD64NPN-IPM Universal Dimmer"
       },
       "class": "light",
@@ -280,6 +331,7 @@
         "vendorId": 4932,
         "productId": [
           1009,
+          1010,
           1054,
           1104
         ]
@@ -312,6 +364,7 @@
         "vendorId": 4932,
         "productId": [
           1009,
+          1010,
           1054,
           1104
         ]
@@ -349,6 +402,7 @@
         "vendorId": 4932,
         "productId": [
           1009,
+          1010,
           1054,
           1104
         ]
@@ -380,6 +434,7 @@
         "vendorId": 4932,
         "productId": [
           1009,
+          1010,
           1054,
           1104
         ]
@@ -411,6 +466,7 @@
         "vendorId": 4932,
         "productId": [
           1009,
+          1010,
           1054,
           1104
         ]
@@ -440,6 +496,7 @@
         "vendorId": 4932,
         "productId": [
           1009,
+          1010,
           1054,
           1104
         ]
@@ -469,6 +526,7 @@
         "vendorId": 4932,
         "productId": [
           1009,
+          1010,
           1054,
           1104
         ]

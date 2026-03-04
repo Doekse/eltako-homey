@@ -1,8 +1,8 @@
 {
   "name": {
-    "en": "Wired Input"
+    "en": "ESR64PF-IPM Matter Bridge"
   },
-  "class": "button",
+  "class": "bridge",
   "capabilities": [],
   "platforms": [
     "local"
@@ -16,14 +16,7 @@
     "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
   },
   "matter": {
-    "deviceVendorId": 4932,
-    "deviceProductName": "ELTAKO-Wired input",
     "vendorId": 4932,
-    "productId": [
-      1009,
-      1010,
-      1054,
-      1104
-    ]
+    "productId": 1010
   }
 }
